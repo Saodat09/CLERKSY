@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Recoleta", sans-serif;
+    font-family: "Noto Sans", sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import "_navbar.scss";
+@import "_header.scss";
+@import "_human.scss";
+@import "_partner.scss";
+@import "_product.scss";
+@import "_shapes.scss";
+@import "_together.scss";
+@import "_consider.scss";
+@import "_it.scss";
+@import "_not.scss";
+@import "_started.scss";
+@import "_stay.scss";
+@import "_footer.scss";
+@keyframes title {
+    0%{ top: 200px; opacity: 0;}
+    100%{top: 0px; opacity: 1;}
+}
+@keyframes card {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
